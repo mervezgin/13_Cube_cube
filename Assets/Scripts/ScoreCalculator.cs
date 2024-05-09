@@ -8,7 +8,7 @@ public class ScoreCalculator : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (!collision.gameObject.CompareTag("Ground"))
+        if (!collision.gameObject.CompareTag("Ground") && !collision.gameObject.CompareTag("Hit"))
         {
             hits += 1;
             Debug.Log("You've bumped into a thing many times: " + hits);

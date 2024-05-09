@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Wall
+  - Dropper
+  - Hit
   layers:
   - Default
   - TransparentFX
