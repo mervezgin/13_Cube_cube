@@ -8,7 +8,7 @@ public class ObjectHit : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Bumped into a wall");
+            //Debug.Log("Bumped into a wall");
             GetComponent<MeshRenderer>().material.color = Color.red;
         }
     }
